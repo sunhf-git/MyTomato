@@ -1,0 +1,46 @@
+
+.v-box {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+.grid-pane {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-background-color: rgb(250, 250, 250);
+    -fx-alignment: top-left;
+    -fx-pref-height: 0;
+    -fx-padding: 1 1 1 15;
+}
+.title-pane {
+    -fx-pref-height: 0;
+
+}
+
+.delete-button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url(../view/Trash_67981_512x512.png);
+    -fx-background-size: 16px 16px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 25;
+    -fx-pref-height: 25;
+}
+
+
+.edit-button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-background-image: url(../view/Edit_512x512.png);
+    -fx-background-size: 16px 16px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 25;
+    -fx-pref-height: 25;
+}
+
